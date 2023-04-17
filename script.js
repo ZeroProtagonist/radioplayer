@@ -84,16 +84,7 @@ document.getElementById('station6').addEventListener('click', () => {
   }
 });
 
-document.getElementById('station7').addEventListener('click', () => {
-  if (stream7.paused) {
-    stopCurrentStream();
-    stream7.src = 'SPOTIFY_PLAYLIST_URL'; // Replace with actual Spotify playlist URL for station 7
-    stream7.play();
-    currentStream = stream7;
-  } else {
-    stopCurrentStream();
-  }
-});
+
 
 // Add more event listeners for additional stations
 
