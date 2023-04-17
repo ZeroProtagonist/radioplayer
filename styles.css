@@ -1,0 +1,41 @@
+.radio-box {
+    background-color: rgb(6, 41, 157);
+    border: 5px solid #666;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /*button {
+    background-color: #666;
+    border: 2px solid #333;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 16px;
+    padding: 10px;
+    margin-right: 10px;
+  }*/
+
+  button {
+    width: 100px; /* adjust the value to your desired size */
+    height: 100px; /* adjust the value to your desired size */
+    margin: 10px;
+    border-radius: 5px;
+    background-color: #444;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  
+  button:hover {
+    background-color: #fff;
+    color: #333;
+    cursor: pointer;
+  }
+  
